@@ -1,3 +1,42 @@
+$color-1: #EEEEEE;
+$color-2: #ED1C24;
+$color-3: #DBDBDB;
+$color-4: #111111;
+
 .header {
-    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1.55fr;
+    grid-template-rows: 425px 65px;
+    background: $color-3;
+
+    div {
+
+        &:first-child {
+            position: relative;
+            grid-column: span 2;
+            background: $color-1;
+
+            .preview {
+                position: absolute;
+                width: 25%;
+                height: 100%;
+                margin-left: 199px;
+                background: $color-2;
+
+                .top-wrap {
+                    background: inherit;
+
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 90px;
+                    }
+                }
+            }
+        }
+
+        &:last-child {
+            background: $color-4;
+        }
+    }
 }

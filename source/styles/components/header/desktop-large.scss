@@ -4,6 +4,7 @@ $color-3: #DBDBDB;
 $color-4: #111111;
 $color-5: #FFFFFF;
 $color-6: rgba(255, 255, 255, .5);
+$color-7: rgba(112, 112, 112, .2);
 
 .header {
     width: 100%;
@@ -15,10 +16,10 @@ $color-6: rgba(255, 255, 255, .5);
         background: $color-3;
 
         .container {
+            display: flex;
             width: 1000px;
 
             .preview {
-                
                 display: flex;
                 width: 350px;
                 height: 100%;
@@ -29,6 +30,7 @@ $color-6: rgba(255, 255, 255, .5);
                     background: inherit;
 
                     h3 {
+                        margin-bottom: 20px;
                         font-size: 18px;
                         font-weight: 700;
                         line-height: 90px;
@@ -54,17 +56,21 @@ $color-6: rgba(255, 255, 255, .5);
 
                     h2 {
                         font-size: 22px;
+                        font-weight: 700;
                         line-height: 26px;
                     }
 
                     h1 {
                         font-size: 26px;
+                        font-weight: 700;
                         line-height: 26px;
                     }
 
                     p {
 
                         &:first-of-type {
+                            margin-top: 21px;
+                            padding: 17px 0;
                             border-top: 1px solid $color-6;
                             border-bottom: 1px solid $color-6;
                             font-family: 'Open Sans';
@@ -74,6 +80,7 @@ $color-6: rgba(255, 255, 255, .5);
                         }
 
                         &:last-of-type {
+                            margin-top: 0;
                             font-size: 18px;
                             line-height: 90px;
 
@@ -82,6 +89,8 @@ $color-6: rgba(255, 255, 255, .5);
                                 display: inline-block;
                                 width: 21px;
                                 height: 21px;
+                                margin-right: 8px;
+                                margin-left: 3px;
                                 background: transparent;
                             }
                         }
@@ -89,6 +98,7 @@ $color-6: rgba(255, 255, 255, .5);
                 }
 
                 .icon-wrap {
+                    display: flex;
                     align-self: flex-end;
                     justify-self: flex-end;
                     border-top: 1px solid $color-6;
@@ -98,18 +108,45 @@ $color-6: rgba(255, 255, 255, .5);
 
                     .eye {
                         content: url(/images/header/Eye.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 13px 11px;
                         border-right: 1px solid $color-6;
                     }
 
                     .photo {
                         content: url(/images/header/Image.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 11px;
                         border-right: 1px solid $color-6;
                     }
 
                     .location {
                         content: url(/images/header/Marker.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px 13px;
                     }
                 }
+            }
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 63px;
+            height: 59px;
+            padding: 18px;
+            background-color: $color-4;
+
+            img {
+                width: 27.07px;
+                height: 26.1px;
             }
         }
     }
@@ -137,10 +174,14 @@ $color-6: rgba(255, 255, 255, .5);
                 background-color: $color-4;
             }
 
-            div {
+            .link-wrap {
+                display: flex;
                 z-index: 2;
+                align-items: center;
 
                 a {
+                    padding: 21px;
+                    border: 1px solid $color-7;
                     color: $color-5;
                 }
             }

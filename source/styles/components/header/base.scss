@@ -12,20 +12,37 @@ $color-7: rgba(112, 112, 112, .2);
     font-family: 'Montserrat';
     font-weight: 400;
 
+    .image-header {
+        position: absolute;
+        width: 100%;
+        height: 420px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            position: absolute;
+        }
+    }
+
     .row-1 {
         display: flex;
         justify-content: center;
-        background: $color-3;
+        background: $color-1;
+        
 
         .container {
             display: flex;
 
             .preview {
                 display: flex;
+                opacity: .97;
                 background: $color-2;
 
                 .top-wrap {
                     background: inherit;
+                    height: 85%;
 
                     h3 {
                         margin-bottom: 20px;
@@ -69,14 +86,14 @@ $color-7: rgba(112, 112, 112, .2);
                             border-top: 1px solid $color-6;
                             border-bottom: 1px solid $color-6;
                             font-family: 'Open Sans';
-                            font-size: 14px;
+                            font-size: 16px;
                             font-weight: 100;
                             line-height: 20px;
                         }
 
                         &:last-of-type {
                             margin-top: 0;
-                            font-size: 16px;
+                            font-size: 18px;
                             line-height: 90px;
 
                             &::before {

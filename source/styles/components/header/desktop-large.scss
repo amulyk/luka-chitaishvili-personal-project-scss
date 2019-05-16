@@ -5,6 +5,7 @@ $color-4: #111111;
 $color-5: #FFFFFF;
 $color-6: rgba(255, 255, 255, .5);
 $color-7: rgba(112, 112, 112, .2);
+$color-8: #898989;
 
 .header {
     width: 100%;
@@ -13,7 +14,8 @@ $color-7: rgba(112, 112, 112, .2);
         display: flex;
         justify-content: center;
         height: 420px;
-        background: $color-3;
+        background-image: url(/source/images/header/CAIRNS-WALKER.jpg);
+       
 
         .container {
             display: flex;
@@ -21,12 +23,15 @@ $color-7: rgba(112, 112, 112, .2);
 
             .preview {
                 display: flex;
+                position: relative;
                 width: 350px;
                 height: 100%;
+                padding-left: 30px;
+                opacity: .97;
                 background: $color-2;
 
                 .top-wrap {
-                    margin-left: 30px;
+                    height: 85%;
                     background: inherit;
 
                     h3 {
@@ -99,8 +104,9 @@ $color-7: rgba(112, 112, 112, .2);
 
                 .icon-wrap {
                     display: flex;
-                    align-self: flex-end;
-                    justify-self: flex-end;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
                     border-top: 1px solid $color-6;
                     border-right: 1px solid $color-6;
                     border-left: 1px solid $color-6;

@@ -9,23 +9,47 @@ $color-7: rgba(112, 112, 112, .2);
 .header {
 
     .row-1 {
-        height: 420px;
+        height: 425px;
 
         .container {
             width: 270px;
 
             .preview {
-                width: 100%;
+                width: 120%;
                 height: 100%;
+                padding-top: 25px;
+                padding-left: 40px;
 
                 .top-wrap {
-                    margin-left: 34px;
-                    margin-top: 15px;
+                    
+
+                    h3 {
+                        margin-bottom: 50px;
+                        font-size: 14.45px;
+                        line-height: 72.24px;
+
+                        &::first-letter {
+                            padding: 6px 9px;
+                            font-size: 25px;
+                        }
+                    }
+
+                    p {
+
+                        &:first-of-type {
+                            margin-bottom: 15px;
+
+                        }
+                    }
+
                 }
             }
 
             .menu-wrap {
-                background: $color-2;
+                display: inline-block;
+                position: absolute;
+                top: 15px;
+                transform: translate(329%);
 
                 .menu {
                     display: flex;
@@ -48,5 +72,12 @@ $color-7: rgba(112, 112, 112, .2);
     .row-2 {
         height: 60px;
         background: $color-4;
+
+        .container {
+
+            .link-wrap {
+                display: none;
+            }
+        }
     }
 }

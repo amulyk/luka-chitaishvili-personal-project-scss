@@ -27,10 +27,27 @@
 
                 .text-wrap-1 {
 
+                    .col-12 {
+                        margin-top: -2px;
+                        margin-left: 0;
+                    }
+
+                    .col-1 {
+                        line-height: 21px;
+                    }
+
                     .col-2 {
+
+                        &:first-of-type {
+
+                            .dt {
+                                padding-bottom: 5px;
+                            }
+                        }
 
                         &:last-of-type {
                             width: 100%;
+                            margin-top: -3px;
                         }
                     }
                 }

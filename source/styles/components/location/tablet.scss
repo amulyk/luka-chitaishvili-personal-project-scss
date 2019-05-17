@@ -7,12 +7,19 @@
 
             .venue {
                 width: 345px;
+                background-position-y: 2px;
+                background-position-x: 5px;
 
                 .wrap {
                     height: 324px;
+                    margin-left: 17px;
 
                     h3 {
                         margin-bottom: 38px;
+                    }
+
+                    .pin {
+                        margin-bottom: 19px;
                     }
 
                     .ignore-t {
@@ -22,11 +29,27 @@
                     .ignore-d {
                         margin-bottom: 21px;
                         padding-bottom: 19px;
-                        border-bottom: 1px solid color(11);
                         font-family: 'Open Sans', sans-serif;
                         font-size: 16px;
                         font-weight: 100;
                         line-height: 20px;
+
+                        &::after {
+                            content: '';
+                            display: block;
+                            position: relative;
+                            top: 20px;
+                            width: 237px;
+                            height: 1px;
+                            background: color(11);
+                        }
+                    }
+
+                    .icon-wrap {
+
+                        a {
+                            height: 44.1px;
+                        }
                     }
                 }
             }

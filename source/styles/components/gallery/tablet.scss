@@ -6,20 +6,22 @@
     }
 
     .container {
-        width: 600px;
+        width: 592px;
+        height: 83%;
 
         .small-container {
 
             h3 {
-
+                margin-bottom: 28px;
+                letter-spacing: -.5px;
             }
 
             .grid-wrap {
                 display: grid;
                 grid-column-gap: 15px;
                 grid-row-gap: 24px;
-                grid-template-columns: 107px 107px 107px 107px 107px;
-                grid-template-rows: 296px 100px;
+                grid-template-columns: 107.02px 107.02px 107.02px 107.02px 107.02px;
+                grid-template-rows: 296px 100.9px;
 
                 .ignore-tab {
                     display: none;
@@ -29,6 +31,10 @@
                     grid-column: span 5;
                     border: none;
                     background-image: url(/images/gallery/wineyard.jpg);
+
+                    img {
+                        display: none;
+                    }
 
                     &:hover {
                         border: none;

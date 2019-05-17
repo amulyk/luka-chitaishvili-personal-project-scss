@@ -137,18 +137,22 @@ $color-7: rgba(112, 112, 112, .2);
             }
         }
 
-        .menu {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 63px;
-            height: 59px;
-            padding: 18px;
-            background-color: $color-4;
+        .menu-wrap {
+            z-index: 1;
 
-            img {
-                width: 27.07px;
-                height: 26.1px;
+            .menu {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 63px;
+                height: 59px;
+                padding: 18px;
+                background-color: $color-4;
+
+                img {
+                    width: 27.07px;
+                    height: 26.1px;
+                }
             }
         }
     }

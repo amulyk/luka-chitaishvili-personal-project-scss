@@ -104,8 +104,8 @@ $color-8: #898989;
                 .icon-wrap {
                     display: flex;
                     position: absolute;
-                    bottom: 0;
                     right: 0;
+                    bottom: 0;
                     border-top: 1px solid $color-6;
                     border-right: 1px solid $color-6;
                     border-left: 1px solid $color-6;
@@ -140,18 +140,22 @@ $color-8: #898989;
             }
         }
 
-        .menu {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 63px;
-            height: 59px;
-            padding: 18px;
-            background-color: $color-4;
+        .menu-wrap {
+            z-index: 1;
 
-            img {
-                width: 27.07px;
-                height: 26.1px;
+            .menu {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 63px;
+                height: 59px;
+                padding: 18px;
+                background-color: $color-4;
+
+                img {
+                    width: 27.07px;
+                    height: 26.1px;
+                }
             }
         }
     }

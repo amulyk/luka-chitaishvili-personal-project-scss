@@ -1,10 +1,10 @@
 .location {
 
     .row {
-        height: 408px;
+        height: 403px;
 
-        .image-location {
-            height: 408px;
+        .mapouter {
+            height: 403px;
         }
     }
 
@@ -13,11 +13,11 @@
 
         .venue {
             width: 100%;
-            background-position-x: center;
-            background-position-y: -19px;
+            background-position-x: 48%;
+            background-position-y: 67%;
 
             .wrap {
-                height: 356px;
+                height: 329px;
 
                 .pin {
                     margin-bottom: 34px;
@@ -45,11 +45,20 @@
                 .ignore-d {
                     margin-bottom: 26px;
                     padding-bottom: 14px;
-                    border-bottom: 1px solid color(11);
                     font-family: 'Open Sans', sans-serif;
                     font-size: 14px;
                     font-weight: 100;
                     line-height: 20px;
+
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: relative;
+                        top: 14px;
+                        width: 191px;
+                        height: 1px;
+                        background: color(11);
+                    }
                 }
             }
         }

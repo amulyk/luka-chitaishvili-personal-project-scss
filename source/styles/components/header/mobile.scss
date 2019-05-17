@@ -43,13 +43,39 @@
                     }
 
                     h1 {
-
+                        letter-spacing: -.5px;
+                        line-height: 20px;
                     }
 
                     p {
 
                         &:first-of-type {
-                            margin-bottom: 15px;
+                            margin-top: 19px;
+                            margin-bottom: -17px;
+                            margin-left: 1px;
+                            padding: 17px 0 20px 0;
+                            letter-spacing: -1px;
+
+                            &::before {
+                                position: absolute;
+                                top: 210px;
+                                width: 204px;
+                            }
+
+                            &::after {
+                                position: absolute;
+                                top: 286px;
+                                width: 204px;
+                            }
+                        }
+
+                        &:last-of-type {
+                            font-size: 16px;
+
+                            &::before {
+                                margin-right: 7px;
+                                margin-left: 0;
+                            }
                         }
                     }
                 }

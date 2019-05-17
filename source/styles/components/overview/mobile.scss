@@ -22,10 +22,12 @@
             }
 
             .small-wrap {
+                margin-top: 33px;
 
                 h2 {
                     margin-top: 20px;
                     margin-bottom: 20px;
+                    font-size: 24px;
                 }
 
                 .text-wrap-1 {
@@ -44,6 +46,24 @@
 
                         &:last-of-type {
                             width: 100%;
+                            margin-top: -14px;
+                        }
+                    }
+
+                    .col-12 {
+                        margin-top: -9px;
+                        line-height: 18px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+
+                    .col-1 {
+                        margin-top: -3px;
+
+                        br {
+                            display: none;
                         }
                     }
                 }

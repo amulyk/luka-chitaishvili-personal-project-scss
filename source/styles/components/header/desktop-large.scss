@@ -1,11 +1,3 @@
-$color-1: #EEEEEE;
-$color-2: #ED1C24;
-$color-3: #DBDBDB;
-$color-4: #111111;
-$color-5: #FFFFFF;
-$color-6: rgba(255, 255, 255, .5);
-$color-7: rgba(112, 112, 112, .2);
-$color-8: #898989;
 
 .header {
     width: 100%;
@@ -24,26 +16,29 @@ $color-8: #898989;
                 position: relative;
                 width: 350px;
                 height: 100%;
-                padding-left: 30px;
+                padding-top: 20px;
+                padding-left: 36px;
                 opacity: .97;
-                background: $color-2;
+                background: color(2);
 
                 .top-wrap {
                     height: 85%;
                     background: inherit;
 
                     h3 {
-                        margin-bottom: 20px;
+                        margin-top: 10px;
+                        margin-bottom: 68px;
+                        margin-left: -2px;
                         font-size: 18px;
                         font-weight: 700;
-                        line-height: 90px;
 
                         &::first-letter {
                             content: '';
-                            display: inline-block;
+                            margin-top: -1px;
                             margin-right: 6px;
                             padding: 2px 9px;
-                            border: 3px solid $color-5;
+                            float: left;
+                            border: 3px solid color(5);
                             background: transparent;
                             font-size: 30px;
                         }
@@ -51,21 +46,27 @@ $color-8: #898989;
 
                     h5 {
                         display: inline-block;
-                        background: $color-4;
+                        margin-bottom: 5px;
+                        padding: 0 7px;
+                        background: color(4);
                         font-size: 10px;
                         font-weight: 400;
                         line-height: 18px;
                     }
 
                     h2 {
+                        margin-left: 3px;
                         font-size: 22px;
                         font-weight: 700;
+                        letter-spacing: -.8px;
                         line-height: 26px;
                     }
 
                     h1 {
+                        margin-left: 2px;
                         font-size: 26px;
                         font-weight: 700;
+                        letter-spacing: -1px;
                         line-height: 26px;
                     }
 
@@ -74,8 +75,8 @@ $color-8: #898989;
                         &:first-of-type {
                             margin-top: 21px;
                             padding: 17px 0;
-                            border-top: 1px solid $color-6;
-                            border-bottom: 1px solid $color-6;
+                            border-top: 1px solid color(6);
+                            border-bottom: 1px solid color(6);
                             font-family: 'Open Sans', sans-serif;
                             font-size: 16px;
                             font-weight: 100;
@@ -85,7 +86,7 @@ $color-8: #898989;
                         &:last-of-type {
                             margin-top: 0;
                             font-size: 18px;
-                            line-height: 90px;
+                            line-height: 58px;
 
                             &::before {
                                 content: url(/images/header/right-arrow.png);
@@ -93,7 +94,7 @@ $color-8: #898989;
                                 width: 21px;
                                 height: 21px;
                                 margin-right: 8px;
-                                margin-left: 3px;
+                                margin-left: -2px;
                                 background: transparent;
                             }
                         }
@@ -103,11 +104,11 @@ $color-8: #898989;
                 .icon-wrap {
                     display: flex;
                     position: absolute;
+                    top: 378px;
                     right: 0;
-                    bottom: 0;
-                    border-top: 1px solid $color-6;
-                    border-right: 1px solid $color-6;
-                    border-left: 1px solid $color-6;
+                    border-top: 1px solid color(6);
+                    border-right: 1px solid color(6);
+                    border-left: 1px solid color(6);
                     background: transparent;
 
                     .eye {
@@ -116,7 +117,7 @@ $color-8: #898989;
                         align-items: center;
                         justify-content: center;
                         padding: 13px 11px;
-                        border-right: 1px solid $color-6;
+                        border-right: 1px solid color(6);
                     }
 
                     .photo {
@@ -125,7 +126,7 @@ $color-8: #898989;
                         align-items: center;
                         justify-content: center;
                         padding: 11px;
-                        border-right: 1px solid $color-6;
+                        border-right: 1px solid color(6);
                     }
 
                     .location {
@@ -149,7 +150,7 @@ $color-8: #898989;
                 width: 63px;
                 height: 59px;
                 padding: 18px;
-                background-color: $color-4;
+                background-color: color(4);
 
                 img {
                     width: 27.07px;
@@ -163,7 +164,7 @@ $color-8: #898989;
         display: flex;
         justify-content: center;
         overflow: hidden;
-        background-color: $color-3;
+        background-color: color(3);
 
         .container {
             display: flex;
@@ -179,7 +180,7 @@ $color-8: #898989;
                 left: 350px;
                 width: 500%;
                 height: 100%;
-                background-color: $color-4;
+                background-color: color(4);
             }
 
             .link-wrap {
@@ -189,8 +190,8 @@ $color-8: #898989;
 
                 a {
                     padding: 21px;
-                    border: 1px solid $color-7;
-                    color: $color-5;
+                    border: 1px solid color(7);
+                    color: color(5);
                 }
             }
         }

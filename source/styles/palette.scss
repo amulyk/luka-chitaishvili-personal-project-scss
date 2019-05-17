@@ -1,0 +1,17 @@
+$colors: (
+    1: #EEEEEE,
+    2: #ED1C24,
+    3: #DBDBDB,
+    4: #111111,
+    5: #FFFFFF,
+    6: rgba(255, 255, 255, .5),
+    7: rgba(112, 112, 112, .2),
+    8: #898989,
+    9: #222222,
+    11: rgba(255, 255, 255, .3),
+    12: #FEFEFE,
+);
+
+@function color($key) {
+    @return map_get($colors, $key);
+}

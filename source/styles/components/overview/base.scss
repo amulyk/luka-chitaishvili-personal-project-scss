@@ -48,7 +48,7 @@ $color-9: #222222;
             h2 {
                 margin-bottom: 40px;
                 color: $color-9;
-                font-family: 'Montserrat';
+                font-family: 'Montserrat', sans-serif;
                 font-size: 30px;
                 font-weight: 700;
                 line-height: 36px;
@@ -61,7 +61,7 @@ $color-9: #222222;
                 grid-template-columns: 1.05fr 1.2fr;
                 grid-template-rows: 85px 70px 50px;
                 width: 600px;
-                font-family: 'Open Sans';
+                font-family: 'Open Sans', sans-serif;
 
                 .col {
                     display: inline-block;

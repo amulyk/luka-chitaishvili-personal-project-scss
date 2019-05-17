@@ -47,7 +47,7 @@
                 }
 
                 .pin {
-                    margin-bottom: 20px;
+                    margin-bottom: 17px;
                 }
 
                 p {
@@ -56,11 +56,20 @@
                     &:first-of-type {
                         margin-bottom: 21px;
                         padding-bottom: 19px;
-                        border-bottom: 1px solid color(11);
                         font-family: 'Open Sans', sans-serif;
                         font-size: 16px;
                         font-weight: 100;
                         line-height: 20px;
+
+                        &::after {
+                            content: '';
+                            display: block;
+                            position: relative;
+                            top: 20px;
+                            width: 237px;
+                            height: 1px;
+                            background: color(11);
+                        }
                     }
 
                     &:last-of-type {
@@ -75,27 +84,12 @@
                     justify-content: center;
                     background: transparent;
 
-                    .man {
+                    a {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        padding: 13px 11px;
-                        border: 1px solid color(6);
-                    }
-
-                    .car {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding: 11px;
-                        border: 1px solid color(6);
-                    }
-
-                    .train {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding: 10px 13px;
+                        width: 44.1px;
+                        height: 42.1px;
                         border: 1px solid color(6);
                     }
                 }

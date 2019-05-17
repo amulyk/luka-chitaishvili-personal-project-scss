@@ -37,11 +37,15 @@
                 display: grid;
                 grid-column-gap: 15px;
                 grid-row-gap: 21px;
-                grid-template-columns: 100px 100px 100px;
-                grid-template-rows: 100px 100px 100px;
+                grid-template-columns: 107.02px 107.02px 107.02px;
+                grid-template-rows: 100.9px 100.9px 100.9px;
 
                 div {
-                    border: 7px solid color(5);
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
                     background: color(5);
 
                     &:hover {

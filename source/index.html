@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="top">
         <div class="row-1">
             <div class="image-header"><img src="/images/header/header-bg.jpg" alt=""></div>
             <div class="container">
@@ -53,8 +53,8 @@
                              Donec </span><span class="dt"> aliquam vehicula est, sed fermentum nulla interdum vel. Integer </span><span class="dt"> ullamcorper cursus tellus.</span>
                         </p></div>
                         <div class="col col-1"><p>Suspendisse potenti. Sed ultrices, lorem quis volutpat laoreet,
-                             odio odio rhoncus lectus, at feugiat mauris turpis sit amet  mi. Nam condimentum.</p></div>
-                        <div class="col col-1"><p>Nunc est nibh, sodales vel convallis eu, consectetur non magna. Nullam a neque elit.
+                             odio odio rhoncus lectus, at feugiat mauris turpis sit amet <br>  mi. Nam condimentum.</p></div>
+                        <div class="col col-12"><p>Nunc est nibh, sodales vel convallis eu, consectetur non magna. Nullam a neque elit.
                                 In tempor ultricies justo scelerisque mollis. <br> Nullam a neque elit. </p></div>
                         <div class="col col-2"><p>Suspendisse potenti. Sed ultrices, lorem quis volutpat laoreet, odio odio rhoncus lectus, at feugiat mauris turpis sit amet mi.
                              Nam condimentum, neque condimentum eleifend pharetra, ante est congue ligula.</p></div>
@@ -69,15 +69,15 @@
             <div class="small-container">
                 <h3>Gallery.</h3>
                 <div class="grid-wrap">
-                    <div class="main"></div>
-                    <div class="ignore-mb"></div>
-                    <div class="ignore-mb"></div>
-                    <div class="ignore-mb"></div>
-                    <div class="ignore-mb"></div>
-                    <div class="ignore-mb"></div>
-                    <div class="ignore-tab ignore-mb"></div>
-                    <div class="ignore-tab ignore-mb"></div>
-                    <div class="ignore-tab ignore-mb"></div>
+                    <div class="main"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-tab ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-tab ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
+                    <div class="ignore-tab ignore-mb"><img src="/images/gallery/brain.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -85,8 +85,18 @@
     <div class="location">
         <div class="row">
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="440px" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>
-                    .mapouter {position: relative;text-align:right;width:100%;}.gmap_canvas
-                     {overflow:hidden;background:none!important;width:100%}</style></div>
+                    .mapouter {
+                        position: relative;
+                        width: 100%;
+                        text-align: right;
+                    }
+
+                    .gmap_canvas {
+                        width: 100%;
+                        overflow: hidden;
+                        background: none;
+                    }
+                        </style></div>
             <div class="container">
                 <div class="venue">
                     <div class="wrap">
@@ -115,7 +125,7 @@
                 <h3>EEXHIBITION</h3>
                 <p>Overview Gallery Venue Hashtag</p>
             </div>
-           <a href="#header"><div class="image-wrap"><img src="/images/footer/top-arrow.png" alt=""></div></a> 
+           <a href="#top"><div class="image-wrap"><img src="/images/footer/top-arrow.png" alt=""></div></a> 
         </div>
     </footer>
 </body>

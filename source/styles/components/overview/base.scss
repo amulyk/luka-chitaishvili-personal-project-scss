@@ -28,23 +28,26 @@ $color-9: #222222;
         }
 
         .big-wrap {
+            position: relative;
             z-index: 2;
             width: 650px;
-            padding-top: 45px;
-            padding-left: 40px;
-            position: relative;
+            padding-top: 38px;
+            padding-left: 47px;
 
             &::before {
                 content: '';
                 position: absolute;
-                left: 0;
+                z-index: -1;
                 top: 0;
+                left: 0;
                 width: 500%;
                 height: 108%;
                 background-color: $color-5;
             }
 
             h2 {
+                margin-bottom: 40px;
+                color: $color-9;
                 font-family: 'Montserrat';
                 font-size: 30px;
                 font-weight: 700;
@@ -53,29 +56,43 @@ $color-9: #222222;
 
             .text-wrap {
                 display: grid;
-                grid-column-gap: 50px;
+                grid-column-gap: 30px;
                 grid-row-gap: 40px;
-                grid-template-columns: 1fr 1.2fr;
+                grid-template-columns: 1.05fr 1.2fr;
                 grid-template-rows: 85px 70px 50px;
                 width: 600px;
                 font-family: 'Open Sans';
 
-                .p {
+                .col {
                     display: inline-block;
                     font-size: 14px;
                     font-weight: 100;
+                    line-height: 18px;
                 }
 
                 .col-2 {
                     grid-column: span 2;
-                }
-
-                .col-1 {
 
                     &:first-of-type {
                         font-size: 20px;
                         font-weight: 100;
                         line-height: 30px;
+
+                        .dt {
+                            padding-bottom: 4px;
+                            border-bottom: 1px solid $color-3;
+                        }
+                    }
+
+                    &:last-of-type {
+                        width: 90%;
+                    }
+                }
+
+                .col-1 {
+
+                    &:first-of-type {
+                        line-height: 20px;
                     }
                 }
             }

@@ -1,0 +1,48 @@
+$color-1: #EEEEEE;
+$color-2: #ED1C24;
+$color-3: #DBDBDB;
+$color-4: #111111;
+$color-5: #FFFFFF;
+$color-6: rgba(255, 255, 255, .5);
+$color-7: rgba(112, 112, 112, .2);
+$color-8: #898989;
+$color-9: #222222;
+
+.overview {
+    height: 470px;
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        background: $color-5;
+
+        .overview-image {
+            display: none;
+        }
+
+        .big-wrap {
+            position: absolute;
+            width: 690px;
+            padding-top: 37px;
+            padding-left: 50px;
+
+            &::before {
+                display: none;
+            }
+
+            .small-wrap {
+                width: 1000px;
+
+                .text-wrap {
+
+                    .col-2 {
+
+                        &:last-of-type {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

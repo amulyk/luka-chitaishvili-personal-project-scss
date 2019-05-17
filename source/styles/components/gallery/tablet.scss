@@ -1,0 +1,41 @@
+.gallery {
+    height: 570px;
+
+    .image {
+        display: none;
+    }
+
+    .container {
+        width: 600px;
+
+        .small-container {
+
+            h3 {
+
+            }
+
+            .grid-wrap {
+                display: grid;
+                grid-column-gap: 15px;
+                grid-row-gap: 24px;
+                grid-template-columns: 107px 107px 107px 107px 107px;
+                grid-template-rows: 296px 100px;
+
+                .ignore-tab {
+                    display: none;
+                }
+
+                .main {
+                    grid-column: span 5;
+                    border: none;
+                    background-image: url(/images/gallery/wineyard.jpg);
+
+                    &:hover {
+                        border: none;
+                    }
+                }
+            }
+        }
+
+    }
+}

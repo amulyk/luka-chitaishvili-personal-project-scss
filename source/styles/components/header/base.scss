@@ -13,13 +13,13 @@ $color-7: rgba(112, 112, 112, .2);
     font-weight: 400;
 
     .image-header {
+        display: flex;
         position: absolute;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         height: 420px;
         overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
         img {
             position: absolute;
@@ -41,8 +41,8 @@ $color-7: rgba(112, 112, 112, .2);
                 background: $color-2;
 
                 .top-wrap {
-                    background: inherit;
                     height: 85%;
+                    background: inherit;
 
                     h3 {
                         margin-bottom: 20px;

@@ -1,0 +1,53 @@
+.overview {
+    height: 600px;
+
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        background: $color-5;
+        text-align: center;
+
+        .overview-image {
+            display: none;
+        }
+
+        .big-wrap {
+            position: absolute;
+            width: 270px;
+            padding: 0;
+
+            ::before {
+                display: none;
+            }
+
+            .small-wrap {
+
+                h2 {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .text-wrap {
+                    grid-column-gap: 30px;
+                    grid-row-gap: 25px;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 150px 75px 70px 95px;
+                    width: 270.5px;
+
+                    .col-2 {
+                        grid-column: span 1;
+
+                        &:first-of-type {
+                            font-size: 18px;
+                        }
+
+                        &:last-of-type {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

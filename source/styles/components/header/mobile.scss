@@ -9,26 +9,27 @@ $color-7: rgba(112, 112, 112, .2);
 .header {
 
     .row-1 {
-        height: 420px;
+        height: 425px;
 
         .container {
             width: 270px;
 
             .preview {
+                position: relative;
                 width: 120%;
                 height: 100%;
-                padding-top: 25px;
-                padding-left: 40px;
+                padding-top: 0;
+                padding-left: 30px;
 
                 .top-wrap {
 
                     h3 {
-                        margin-bottom: 50px;
+                        margin-bottom: 30px;
                         font-size: 14.45px;
-                        line-height: 72.24px;
+                        line-height: 66.24px;
 
                         &::first-letter {
-                            padding: 6px 9px;
+                            padding: 2px 6px;
                             font-size: 25px;
                         }
                     }
@@ -38,6 +39,43 @@ $color-7: rgba(112, 112, 112, .2);
                         &:first-of-type {
                             margin-bottom: 15px;
                         }
+                    }
+                }
+
+                .icon-wrap {
+                    display: flex;
+                    position: absolute;
+                    bottom: 0;
+                    margin-left: 38px;
+                    border-top: 1px solid $color-6;
+                    border-right: 1px solid $color-6;
+                    border-left: 1px solid $color-6;
+                    background: transparent;
+
+                    .eye {
+                        content: url(/images/header/eye.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 13px 11px;
+                        border-right: 1px solid $color-6;
+                    }
+
+                    .photo {
+                        content: url(/images/header/image.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 11px;
+                        border-right: 1px solid $color-6;
+                    }
+
+                    .location {
+                        content: url(/images/header/marker.png);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px 13px;
                     }
                 }
             }

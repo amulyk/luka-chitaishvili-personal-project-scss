@@ -86,7 +86,7 @@ $color-7: rgba(112, 112, 112, .2);
                             line-height: 90px;
 
                             &::before {
-                                content: url(/images/header/Shape12.png);
+                                content: url(/images/header/right-arrow.png);
                                 display: inline-block;
                                 width: 21px;
                                 height: 21px;
@@ -109,7 +109,7 @@ $color-7: rgba(112, 112, 112, .2);
                     background: transparent;
 
                     .eye {
-                        content: url(/images/header/Eye.png);
+                        content: url(/images/header/eye.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -118,7 +118,7 @@ $color-7: rgba(112, 112, 112, .2);
                     }
 
                     .photo {
-                        content: url(/images/header/Image.png);
+                        content: url(/images/header/image.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -127,7 +127,7 @@ $color-7: rgba(112, 112, 112, .2);
                     }
 
                     .location {
-                        content: url(/images/header/Marker.png);
+                        content: url(/images/header/marker.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;

@@ -14,7 +14,7 @@ $color-8: #898989;
         display: flex;
         justify-content: center;
         height: 420px;
-        background-image: url(/source/images/header/CAIRNS-WALKER.jpg);
+        background-image: url(/source/images/header/header-bg.jpg);
 
         .container {
             display: flex;
@@ -89,7 +89,7 @@ $color-8: #898989;
                             line-height: 90px;
 
                             &::before {
-                                content: url(/images/header/Shape12.png);
+                                content: url(/images/header/right-arrow.png);
                                 display: inline-block;
                                 width: 21px;
                                 height: 21px;
@@ -112,7 +112,7 @@ $color-8: #898989;
                     background: transparent;
 
                     .eye {
-                        content: url(/images/header/Eye.png);
+                        content: url(/images/header/eye.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -121,7 +121,7 @@ $color-8: #898989;
                     }
 
                     .photo {
-                        content: url(/images/header/Image.png);
+                        content: url(/images/header/image.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -130,7 +130,7 @@ $color-8: #898989;
                     }
 
                     .location {
-                        content: url(/images/header/Marker.png);
+                        content: url(/images/header/marker.png);
                         display: flex;
                         align-items: center;
                         justify-content: center;

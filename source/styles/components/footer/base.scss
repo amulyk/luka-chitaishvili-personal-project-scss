@@ -16,6 +16,7 @@ footer {
 
         .text-wrap {
             display: flex;
+            width: 931px;
             font-size: 14px;
 
             h3 {
@@ -40,13 +41,19 @@ footer {
             }
         }
 
-        .image-wrap {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 37px;
-            height: 36px;
-            border: 1px solid color(11);
+        a {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+
+            .image-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 37px;
+                height: 36px;
+                border: 1px solid color(11);
+            }
         }
     }
 }

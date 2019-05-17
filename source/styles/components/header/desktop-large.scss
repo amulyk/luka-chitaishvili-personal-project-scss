@@ -16,8 +16,8 @@
                 position: relative;
                 width: 350px;
                 height: 100%;
-                padding-top: 20px;
-                padding-left: 36px;
+                padding-top: 21px;
+                padding-left: 34px;
                 opacity: .97;
                 background: color(2);
 
@@ -34,9 +34,9 @@
 
                         &::first-letter {
                             content: '';
-                            margin-top: -1px;
+                            margin-top: -3px;
                             margin-right: 6px;
-                            padding: 2px 9px;
+                            padding: 0 10px 5px 9px;
                             float: left;
                             border: 3px solid color(5);
                             background: transparent;
@@ -73,8 +73,8 @@
                     p {
 
                         &:first-of-type {
-                            margin-top: 21px;
-                            padding: 17px 0;
+                            margin-top: 14px;
+                            padding: 16px 0 20px 0;
                             border-top: 1px solid color(6);
                             border-bottom: 1px solid color(6);
                             font-family: 'Open Sans', sans-serif;

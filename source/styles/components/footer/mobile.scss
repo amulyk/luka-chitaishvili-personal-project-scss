@@ -1,0 +1,26 @@
+footer {
+
+    .container {
+        justify-content: space-between;
+        width: 270px;
+        height: 100%;
+
+        .text-wrap {
+            flex-direction: column;
+
+            h3 {
+                margin-bottom: 10px;
+                font-size: 15.81px;
+
+                &::first-letter {
+                    font-size: 30px;
+                }
+            }
+
+            p {
+                margin-left: 0;
+                font-size: 12px;
+            }
+        }
+    }
+}

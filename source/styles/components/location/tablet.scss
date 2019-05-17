@@ -1,32 +1,34 @@
 .location {
 
-    .container {
-        width: 692px;
+    .row {
 
-        .venue {
-            width: 345px;
+        .container {
+            width: 692px;
 
-            .wrap {
-                position: absolute;
-                left: 122px;
-                height: 324px;
+            .venue {
+                width: 345px;
 
-                h3 {
-                    margin-bottom: 38px;
-                }
+                .wrap {
+                    
+                    height: 324px;
 
-                .ignore-t {
-                    display: none;
-                }
+                    h3 {
+                        margin-bottom: 38px;
+                    }
 
-                .ignore-d {
-                    margin-bottom: 21px;
-                    padding-bottom: 19px;
-                    border-bottom: 1px solid $color-11;
-                    font-family: 'Open Sans';
-                    font-size: 16px;
-                    font-weight: 100;
-                    line-height: 20px;
+                    .ignore-t {
+                        display: none;
+                    }
+
+                    .ignore-d {
+                        margin-bottom: 21px;
+                        padding-bottom: 19px;
+                        border-bottom: 1px solid $color-11;
+                        font-family: 'Open Sans';
+                        font-size: 16px;
+                        font-weight: 100;
+                        line-height: 20px;
+                    }
                 }
             }
         }

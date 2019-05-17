@@ -1,0 +1,23 @@
+footer {
+
+    .container {
+        justify-content: space-between;
+        width: 600px;
+        height: 100%;
+
+        .text-wrap {
+            position: relative;
+            top: -5px;
+            left: 6px;
+            flex-direction: column;
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-left: 0;
+            }
+        }
+    }
+}

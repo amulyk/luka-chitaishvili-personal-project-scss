@@ -81,6 +81,14 @@
                             font-size: 16px;
                             font-weight: 100;
                             line-height: 20px;
+
+                            &::before {
+                                bottom: 17px;
+                            }
+
+                            &::after {
+                                top: 19px;
+                            }
                         }
 
                         &:last-of-type {

@@ -14,6 +14,23 @@ footer {
         height: 100%;
         margin: auto;
 
+        a {
+            position: fixed;
+            z-index: 2;
+            right: 184px;
+            bottom: 63px;
+            background: color(4);
+
+            .image-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 37px;
+                height: 36px;
+                border: 1px solid color(11);
+            }
+        }
+
         .text-wrap {
             display: flex;
             width: 931px;
@@ -42,23 +59,13 @@ footer {
                 color: color(12);
                 letter-spacing: .6px;
                 line-height: 16.8px;
-            }
-        }
 
-        a {
-            position: fixed;
-            z-index: 2;
-            right: 184px;
-            bottom: 63px;
-            background: color(4);
+                span {
 
-            .image-wrap {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 37px;
-                height: 36px;
-                border: 1px solid color(11);
+                    &:hover {
+                        border-bottom: 3px solid color(2);
+                    }
+                }
             }
         }
     }

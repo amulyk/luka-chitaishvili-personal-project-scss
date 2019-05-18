@@ -16,6 +16,9 @@
         .overview-image {
             content: url(/images/overview/https.jpg);
             z-index: 2;
+            width: 350px;
+            height: 520px;
+            background: color(4);
         }
 
         .big-wrap {
